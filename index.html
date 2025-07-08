@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Website Portofolio Responsif HTML CSS | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- Tombol kembali ke atas -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Menu navigasi -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portofolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#skills">Keahlian</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/share/18zAuLtGRB/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/tiarahmadyassin?igsh=N3k0ZHMzM2w0cHJl"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Bagian Beranda -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Halo,</div>
+          <div class="text-two">Saya Tiar Ahmad Yassin</div>
+          <div class="text-three">Desainer UI/UX</div>
+          <div class="text-four">Dari Indonesia</div>
+        </div>
+        <div class="button">
+          <button
+            onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"
+          >
+            Rekrut Saya
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Tentang -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>Tentang Saya</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="Tentang Saya" />
+          </div>
+          <div class="right">
+            <div class="topic">Desain Adalah Passion Saya</div>
+            <p>
+              Saya adalah seorang desainer UI/UX yang berdedikasi, memiliki
+              ketertarikan tinggi pada dunia digital dan bagaimana menciptakan
+              pengalaman pengguna yang memukau. Dengan latar belakang dalam
+              desain grafis dan teknologi web, saya menggabungkan estetika
+              visual dan fungsionalitas dalam setiap proyek. Saya percaya bahwa
+              desain yang baik mampu menyampaikan pesan yang kuat dan memberikan
+              dampak positif.
+            </p>
+            <div class="button">
+              <button
+                onclick="window.open('https://drive.google.com/file/d/1wrYuUzXHj-VGamdRwmKxHi9VVLWc6E_P/view?usp=sharing=drive_link', '_blank')"
+              >
+                Unduh CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Keahlian -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>Keahlian Saya</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Keahlian Mencerminkan Pengetahuan</div>
+            <p>
+              Saya telah mengembangkan berbagai proyek dengan menggunakan HTML,
+              CSS, JavaScript, dan PHP. Setiap keterampilan yang saya miliki
+              mencerminkan pengalaman saya dalam membangun antarmuka yang
+              responsif, estetis, dan ramah pengguna. Saya senang mempelajari
+              hal baru dan terus meningkatkan kemampuan teknis serta kreativitas
+              dalam setiap pekerjaan.
+            </p>
+            <div class="experience">
+              <div class="experience">
+                <div class="num">0</div>
+                <div class="exp">
+                  Masih <br />
+                  Belajar
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">PHP</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Layanan -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Layanan Saya</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Pengembangan Web</div>
+            <p>
+              Saya membangun website yang cepat, responsif, dan sesuai kebutuhan
+              bisnis atau personal Anda.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Desain Grafis</div>
+            <p>
+              Saya menciptakan desain visual yang menarik untuk media sosial,
+              branding, dan keperluan promosi lainnya.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Pemasaran Digital</div>
+            <p>
+              Saya membantu meningkatkan visibilitas dan jangkauan digital Anda
+              melalui strategi yang tepat sasaran.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Desain Ikon</div>
+            <p>
+              Saya membuat ikon yang unik dan konsisten untuk aplikasi maupun
+              antarmuka pengguna.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Fotografi</div>
+            <p>
+              Saya juga menyediakan jasa fotografi untuk keperluan produk,
+              profil, atau dokumentasi acara.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Pengembangan Aplikasi</div>
+            <p>
+              Saya mengembangkan aplikasi mobile dan web yang user-friendly dan
+              fungsional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Hubungi Saya</span></div>
+        <div class="text">
+          <div class="topic">Punya Proyek?</div>
+          <p>
+            Saya selalu terbuka untuk berdiskusi mengenai proyek baru,
+            kolaborasi, atau peluang kerja. Jangan ragu untuk menghubungi saya
+            jika Anda memiliki ide menarik atau butuh bantuan dalam desain
+            maupun pengembangan web.
+          </p>
+          <div class="button">
+            <button
+              onclick="window.open('https://wa.me/6283820205571', '_blank', 'noopener,noreferrer')"
+            >
+              Ayo Mengobrol
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer>
+      <div class="text">
+        <span
+          >Dibuat oleh <a href="#">Tiar Ahmad Yassin</a> | &#169; 2025
+          Semua Hak Dilindungi</span
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
